@@ -1,0 +1,326 @@
+body {
+    background-color: rgb(36, 36, 36);
+}
+
+.image {
+    max-width: 100%;
+}
+
+.list {
+    margin-top: 10px;
+    list-style: none;
+}
+.block {
+    border-radius: 10px;
+    width:210px;
+    height: 200px;
+    background-color: rgb(81, 77, 77);
+}
+
+
+
+.katal {
+    margin-top: 100px;
+    text-align: center;
+    list-style: none;
+    margin-left: 30px;
+    color: rgb(223, 223, 223);
+    font: italic small-caps bold 30px cursive;
+}
+.kategory{
+    color: rgb(183, 121, 121);
+    font: italic small-caps bold 20px cursive;
+}
+
+.main_button {
+    font-size: 40px;
+    list-style: none;
+    background-color: rgb(173, 173, 173);
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    border-radius: 4px;
+    transition: 0.3s;
+    font: italic small-caps bold 35px cursive;
+}
+
+
+.main_button:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.link_style_menu {
+    text-decoration-line: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+.menu_text {
+    font-size: 40px;
+    list-style: none;
+    background-color: rgb(166, 91, 74);
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    border-radius: 4px;
+    transition: 0.3s;
+    font: italic small-caps bold 35px cursive;
+    
+}
+
+.menu_text:hover {
+    background-color: rgb(167, 112, 99);
+}
+.block_hv {
+    position:relative;
+    display: inline-block;
+    width:200px;
+    
+     
+}
+
+.block_menu {
+    display: none;
+    position: absolute;
+    background-color: #ffffff00;
+    transition: 1s;
+}
+
+.block_hv:hover .block_menu {
+    
+    display: block;
+}
+
+
+
+
+/* title text/Заголовки,блоки,текст під заголовками*/
+.news {
+    border-radius: 10px;
+    
+    width: 1000px;
+    height: 300px;
+    margin-left: 450px;
+    background-color: rgb(78, 78, 78);
+}
+
+.title {
+    margin-left: 30px;
+    color: rgb(179, 100, 100);
+    font: italic small-caps bold 30px cursive;
+}
+
+.textfortitle {
+    margin-left: 30px;
+    color: rgb(185, 185, 185);
+    font: italic small-caps bold 20px cursive;
+    list-style: none;
+}
+
+.readmore {
+    margin-left: 30px;
+    font: italic small-caps bold 20px cursive;
+    color: rgb(222, 77, 77);
+}
+.readmore:hover {
+    transition: 0.3s;
+    color: rgb(182, 64, 64);
+}
+
+/* Articles/Статті */
+.page1 {
+    margin-left: 400px;
+    font: italic small-caps bold 30px cursive;
+    color: rgb(185, 185, 185);
+}
+
+.TextToArticle {
+    line-height: 1.5;
+    
+}
+
+@media (max-width: 1450px) {
+    .text {
+        padding: 0px 0px;
+        font: italic small-caps bold 15px cursive;
+    }
+
+    .main_text {
+        
+        padding: 0px 0px;
+        font: italic small-caps bold 10px cursive;
+    }
+    .main_button {
+        font-size: 20px;
+        width: 100px;
+        height: 45px;
+        text-align: center;
+        border-radius: 4px;
+        transition: 0.3s;
+        font: italic small-caps bold 25px cursive;
+    }
+
+    .block_hv {
+        width:100px;
+        
+         
+    }
+
+    .menu_text {
+        font-size: 20px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        border-radius: 4px;
+        transition: 0.3s;
+        font: italic small-caps bold 20px cursive;
+        
+    }
+    /* Заголовки */
+    .news {
+        width: 900px;
+        height: 300px;
+        margin-left: 20px;
+        margin-top: 50px;
+        
+    }
+    
+    .title {
+        margin-left: 30px;
+        font: italic small-caps bold 30px cursive;
+    }
+    
+    .textfortitle {
+        margin-left: 20px;
+        font: italic small-caps bold 25px cursive;
+        
+    }
+    
+    .readmore {
+        margin-left: 15px;
+        font: italic small-caps bold 25px cursive;
+        
+    }
+
+    /* Стаття 1 */
+
+    .page1 {
+        margin-left: 200px;
+        font: italic small-caps bold 15px cursive;
+        color: rgb(185, 185, 185);
+
+    }
+
+    
+    
+}
+
+@media (max-width: 1000px) {
+    .text {
+        padding: 20px 0px;
+        font: italic small-caps bold 20px cursive;
+    }
+
+    .main_text {
+        
+        padding: 0px 0px;
+        font: italic small-caps bold 15px cursive;
+    }
+
+    /* Заголовки */
+    .news {
+        width: 800px;
+        height: 450px;
+        margin-left: 20px;
+        margin-top: 50px;
+        
+    }
+    
+    .title {
+        margin-left: 30px;
+        font: italic small-caps bold 35px cursive;
+    }
+    
+    .textfortitle {
+        margin-left: 20px;
+        font: italic small-caps bold 30px cursive;
+        
+    }
+    
+    .readmore {
+        margin-left: 15px;
+        font: italic small-caps bold 30px cursive;
+        
+    }
+
+    .page1 {
+        margin-top: 50px;
+        margin-left: 100px;
+        font: italic small-caps bold 15px cursive;
+        color: rgb(185, 185, 185);
+    }
+    
+}
+
+@media (max-width: 800px){
+    /* Заголовки */
+    .news {
+        width: 600px;
+        height: 520px;
+        margin-left: 20px;
+        margin-top: 50px;
+        
+    }
+    
+    .title {
+        margin-left: 30px;
+        font: italic small-caps bold 35px cursive;
+    }
+    
+    .textfortitle {
+        margin-left: 20px;
+        font: italic small-caps bold 30px cursive;
+        
+    }
+    
+    .readmore {
+        margin-left: 15px;
+        font: italic small-caps bold 30px cursive;
+        
+    }
+
+    .page1 {
+        margin-top: 50px;
+        margin-left: 10px;
+        font: italic small-caps bold 25px cursive;
+        color: rgb(185, 185, 185);
+    }
+}
+
+@media (max-width: 670px){
+    /* Заголовки */
+    .news {
+        width: 500px;
+        height: 580px;
+        margin-left: 20px;
+        margin-top: 50px;
+        
+    }
+    
+    .title {
+        margin-left: 30px;
+        font: italic small-caps bold 35px cursive;
+    }
+    
+    .textfortitle {
+        margin-left: 20px;
+        font: italic small-caps bold 30px cursive;
+        
+    }
+    
+    .readmore {
+        margin-left: 15px;
+        font: italic small-caps bold 30px cursive;
+        
+    }
+}
